@@ -115,8 +115,14 @@ class FarquharC3(object):
         --------
         An : float
             Net leaf assimilation rate [umol m-2 s-1]
+        Ac : float
+            Rubisco-limited assimilation rate [umol m-2 s-1]
+        Aj : float
+            RuBP regeneration limited assimilation rate [umol m-2 s-1]
         gsc : float
             stomatal conductance to CO2 [mol m-2 s-1]
+        Rd : float
+            Leaf mitochondrial respiration in light, or day respiration [umol m-2 s-1]
         """
 
         # calculate temp dependancies of Michaelis-Menten constants for CO2, O2
